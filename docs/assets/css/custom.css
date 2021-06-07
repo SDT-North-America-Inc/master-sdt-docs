@@ -1,0 +1,50 @@
+.md-header-nav__button.md-logo img,
+.md-header-nav__button.md-logo svg {
+    display: block;
+    width: 5rem !important;
+    height: 1.2rem;
+    fill: currentColor;
+}
+
+.md-typeset blockquote {
+    background-color: lightyellow !important;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Noto Sans';
+    font-weight: 700 !important;
+}
+
+h2 {
+    color: #0063b0;
+    border-bottom: 4px solid rgba(255, 204, 0, .4) !important;
+}
+
+h3 {
+    /*background-color: aliceblue;*/
+    color: #0063b0;
+    border-bottom: 2px solid rgba(255, 204, 0, .4) !important;
+}
+
+@page {
+    size: letter portrait;
+    margin: 25mm 10mm 25mm 10mm;
+    counter-increment: page;
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+    white-space: pre;
+    color: grey;
+    @top-left {
+        font-size: .5rem;
+        content: 'SDT.Help Documentation - ' string(chapter);
+    }
+    @top-right {
+        font-size: .5rem;
+        content: 'Page ' counter(page);
+    }
+    @bottom-left {
+        font-size: .5rem;
+        content: '©2019-2021 SDT Ultrasound Solutions';
+    }
+}
