@@ -18,6 +18,21 @@
     font-family: 'Roboto';
 }
 
+.md-typeset__table thead>tr {
+    background-color: #0063b0;
+}
+
+
+/*.md-typeset__table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
+
+.md-typeset__table table,
+th,
+td {
+    border: 1px solid #0063b0;
+}
+
 .admonition {
     font-family: 'Roboto';
 }
