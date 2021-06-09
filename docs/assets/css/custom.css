@@ -10,11 +10,31 @@
     background-color: lightyellow !important;
 }
 
+.md-header-nav__title {
+    font-family: 'Roboto';
+}
+
+.md-sidebar {
+    font-family: 'Roboto';
+}
+
+.admonition {
+    font-family: 'Roboto';
+}
+
+#nav-2 .md-nav__link {
+    font-weight: 700 !important;
+}
+
 h1,
 h2,
 h3 {
-    font-family: 'Noto Sans';
+    font-family: 'Roboto';
     font-weight: 700 !important;
+}
+
+h1 {
+    color: #0063b0 !important;
 }
 
 h2 {
@@ -25,7 +45,7 @@ h2 {
 h3 {
     /*background-color: aliceblue;*/
     color: #0063b0;
-    border-bottom: 2px solid rgba(255, 204, 0, .4) !important;
+    /*border-bottom: 2px solid rgba(255, 204, 0, .4) !important;*/
 }
 
 @page {

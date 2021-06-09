@@ -2,8 +2,8 @@
 
 ## Hardware Requirements
 
-**Server OS:** Any version of MS Server 2008 and above
-**Disk Space:** 250MB for the application and 10-20 GB for user data
+**Server OS:** Any version of MS Server 2008 and above<br>
+**Disk Space:** 250MB for the application and 10-20 GB for user data<br>
 **Memory (RAM):** 4GB
 
 ### Server Software

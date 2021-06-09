@@ -29,8 +29,8 @@ theme:
   logo: 'https://sdt.media/md/uas4/SDT-Help-132x28.png'
   favicon: 'assets/images/favicon.ico'
   font:
-    text: 'Calibri'
-    #code: 'Ubuntu Mono'
+    text: 'IBM Plex Serif'
+    code: 'Source Code Pro'
   #icon:
     #logo: 'images/logo.svg'
   #favicon: 'assets/images/favicon.ico'
@@ -39,18 +39,19 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - pymdownx.extra:
-  - pymdownx.betterem:
-  - pymdownx.superfences:
-  - markdown.extensions.footnotes:
-  - markdown.extensions.attr_list:
-  - markdown.extensions.def_list:
-  - markdown.extensions.tables:
-  - markdown.extensions.abbr:
-  - markdown.extensions.md_in_html:
-  - markdown.extensions.admonition:
-  - markdown.extensions.codehilite:
-  - markdown.extensions.footnotes:
+  - pymdownx.extra
+  - pymdownx.betterem
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - markdown.extensions.footnotes
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.tables
+  - markdown.extensions.abbr
+  - markdown.extensions.md_in_html
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite
+  - markdown.extensions.footnotes
   - markdown.extensions.toc:
       permalink: true
       separator: '_'

@@ -7,14 +7,14 @@
 - 280 MB available hard disk space USB 1.1 or higher port.
 - Sound card and audio output (Dynamic version only).
 
-## Download Ultranalysis® Suite 3 Base Setup
+### Download Ultranalysis® Suite 3 Base Setup
 
 If you don’t have it yet, you need to download “Ultranalysis Base Setup – Extractor.exe” file. It is
 available at this location:
 
 **[http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/BaseSetup/LatestVersion/UAS%203%20Base%20Setup%20-%20Extractor.exe](http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/BaseSetup/LatestVersion/UAS%203%20Base%20Setup%20-%20Extractor.exe)**
 
-## Extract Base Setup
+### Extract Base Setup
 
 From your download folder (“C:\Download” is an example), double left click on the file “UAS 3 Base
 Setup – Extractor.exe” to start the extraction of all setup files.
@@ -46,7 +46,7 @@ Click the Next button to continue.
 This step will list all the components the Base Setup will install to your computer.
 Click the Install button to continue.
 
-## Microsoft Visual C++ Redist 2013
+### Microsoft Visual C++ Redist 2013
 
 If the Base Setup was required to install Microsoft Visual C++ 2013 Redistributable (x64), you should see the following window:
 
@@ -54,7 +54,7 @@ If the Base Setup was required to install Microsoft Visual C++ 2013 Redistributa
 
 Depending on your computer performances, it could take few minutes.
 
-## Crystal Reports
+### Crystal Reports
 
 If the Base Setup needed to install Crystal Reports, you should see the following window:
 Depending on your system performance it could take a few minutes.

@@ -1,0 +1,769 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MkDocs Online Documentation">
+      
+      
+      
+      
+        <meta name="author" content="Jim Pallister">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>UAS Network Software Installation - SDTDocs Online Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calibri:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Calibri",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="blue">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#uas_network_software_installation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="SDTDocs Online Documentation" class="md-header-nav__button md-logo" aria-label="SDTDocs Online Documentation">
+      
+  <img src="https://sdt.media/md/uas4/SDT-Help-132x28.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            SDTDocs Online Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              UAS Network Software Installation
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/SDT-North-America-Inc/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SDTDocs Online Documentation" class="md-nav__button md-logo" aria-label="SDTDocs Online Documentation">
+      
+  <img src="https://sdt.media/md/uas4/SDT-Help-132x28.png" alt="logo">
+
+    </a>
+    SDTDocs Online Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/SDT-North-America-Inc/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Welcome to MkDocs
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      UAS
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="UAS" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        UAS
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backup-restore/" class="md-nav__link">
+      Backup and Restore Procedures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        UAS Network Software Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      UAS Network Software Installation
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hardware_requirements" class="md-nav__link">
+    Hardware Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server_software" class="md-nav__link">
+    Server Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql_service_configuration" class="md-nav__link">
+    PostgreSQL Service Configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="PostgreSQL Service Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allow_client_pc_access" class="md-nav__link">
+    Allow Client PC Access
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv4_local_connections" class="md-nav__link">
+    IPv4 local connections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database_service_configuration" class="md-nav__link">
+    Database Service Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error_logging" class="md-nav__link">
+    Error Logging
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client_software_installation" class="md-nav__link">
+    Client  Software Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Client  Software Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#license_client_pcs" class="md-nav__link">
+    License Client PC's
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_database_connection" class="md-nav__link">
+    Set Database Connection
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" >
+    <label class="md-nav__link" for="nav-2-3">
+      User Manual
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User Manual" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        User Manual
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../User%20Manual/Installation/" class="md-nav__link">
+      Ultranalysis® installation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hardware_requirements" class="md-nav__link">
+    Hardware Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server_software" class="md-nav__link">
+    Server Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql_service_configuration" class="md-nav__link">
+    PostgreSQL Service Configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="PostgreSQL Service Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allow_client_pc_access" class="md-nav__link">
+    Allow Client PC Access
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv4_local_connections" class="md-nav__link">
+    IPv4 local connections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database_service_configuration" class="md-nav__link">
+    Database Service Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error_logging" class="md-nav__link">
+    Error Logging
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client_software_installation" class="md-nav__link">
+    Client  Software Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Client  Software Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#license_client_pcs" class="md-nav__link">
+    License Client PC's
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_database_connection" class="md-nav__link">
+    Set Database Connection
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/SDT-North-America-Inc/edit/master/docs/UAS/network-install.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="uas_network_software_installation">UAS Network Software Installation<a class="headerlink" href="#uas_network_software_installation" title="Permanent link">&para;</a></h1>
+<h2 id="hardware_requirements">Hardware Requirements<a class="headerlink" href="#hardware_requirements" title="Permanent link">&para;</a></h2>
+<p><strong>Server OS:</strong> Any version of MS Server 2008 and above
+<strong>Disk Space:</strong> 250MB for the application and 10-20 GB for user data
+<strong>Memory (RAM):</strong> 4GB</p>
+<h3 id="server_software">Server Software<a class="headerlink" href="#server_software" title="Permanent link">&para;</a></h3>
+<p>Please use the version of PostgreSQL provided by SDT:</p>
+<p><strong><a href="http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/Database/postgresql-13.1-x64.exe">http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/Database/postgresql-13.1-x64.exe</a></strong></p>
+<p>The software is compatible with the current version of UAS software and the installer is tuned for network servers.</p>
+<p><strong>Installation is straightforward, please follow the default prompts and apply those settings.</strong></p>
+<p>During the installation, the installer will ask to set the password for the <em>‘postgres’</em> user account. This account is required for starting and stopping the postgresql database service.</p>
+<p>Set the password to the following:  <strong>PasswordPassword123</strong></p>
+<p>The client application uses this password by default.  The ‘postgres’ user account serves no other purpose and requires no administrative privileges.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>At the end of the installation, the installer asks to install <em>StackBuilder</em>. <strong>We do NOT use <em>StackBuilder</em></strong> for UAS and it is therefore, not necessary to install.</p>
+</div>
+<div style="page-break-after: always;"></div>
+
+<h3 id="postgresql_service_configuration">PostgreSQL Service Configuration<a class="headerlink" href="#postgresql_service_configuration" title="Permanent link">&para;</a></h3>
+<p>The following information is required to ensure a successful connection between the client/server applications:</p>
+<ol>
+<li><em>IP address of the server</em> - this is necessary for the client PCs to access the server</li>
+<li><em>IP ranges for the client PCs</em> - any valid ip range for the clients PCs that will be connecting to the database.  This can be multiple address ranges.</li>
+</ol>
+<h4 id="allow_client_pc_access">Allow Client PC Access<a class="headerlink" href="#allow_client_pc_access" title="Permanent link">&para;</a></h4>
+<p>To allow a UAS client application to connect to the database you <strong>MUST</strong> edit the <strong><em>pg_hba.conf</em></strong> configurtation file and add all the client IP ranges collected in <em>Step 2</em> above.</p>
+<p>This file is located here :
+<strong><em>C:\Program Files\PostgreSQL\13\data</em></strong></p>
+<p>Edit the section at the bottom of the file that looks like this:</p>
+<div class="highlight"><pre><span></span><code># TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# &quot;local&quot; is for Unix domain socket connections only
+local   all             all                                     scram-sha-256
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            scram-sha-256
+# IPv6 local connections:
+host    all             all             ::1/128                 scram-sha-256
+# Allow replication connections from localhost, by a user with the
+# replication privilege.
+local   replication     all                                     scram-sha-256
+host    replication     all             127.0.0.1/32            scram-sha-256
+host    replication     all             ::1/128                 scram-sha-256
+host    all             all             0.0.0.0/0               scram-sha-256
+</code></pre></div>
+<h4 id="ipv4_local_connections">IPv4 local connections<a class="headerlink" href="#ipv4_local_connections" title="Permanent link">&para;</a></h4>
+<p>This section of the config file is where the client ranges are added. You can add clients indivually or as ranges:</p>
+<p>For an individual PC:</p>
+<div class="highlight"><pre><span></span><code># IPv4 local connections:
+host    all         all         127.0.0.1/32        scram-sha-256
+host    all         all         10.10.12.26         trust
+</code></pre></div>
+<p>For a range of IP addresses</p>
+<div class="highlight"><pre><span></span><code># IPv4 local connections:
+host    all         all         127.0.0.1/32        scram-sha-256
+host    all         all         10.10.12.0/24       trust
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>More detailed documentation can be found here at the <em><a href="https://www.postgresql.org/docs/8.4/auth-pg-hba-conf.html">PostgreSQL 8.4 Documentation Site</a></em></p>
+</div>
+<h4 id="database_service_configuration">Database Service Configuration<a class="headerlink" href="#database_service_configuration" title="Permanent link">&para;</a></h4>
+<p>The postgresql.conf controls setting for the database service.  The file can be found here: <br><strong><em>C:\Program Files (x86)\PostgreSQL\13\data</em></strong></p>
+<p>Make sure these setting changes have been made:</p>
+<div class="highlight"><pre><span></span><code>listen_addresses = to ‘*’
+port = 5432
+</code></pre></div>
+<p><strong>Those are the minimal changes required to make the service run.</strong></p>
+<h4 id="error_logging">Error Logging<a class="headerlink" href="#error_logging" title="Permanent link">&para;</a></h4>
+<p>If you are having issues with the client PC's connecting, turn on the postgres service <strong>Error Logging</strong>. By default this is set to minimal to prevent it from filling up hard drive space unnecessarily.</p>
+<p>Edit the postgresql.conf file and find the section titled <em>‘ERROR REPORTING AND LOGGING’</em>. Set the values to those listed below:</p>
+<div class="highlight"><pre><span></span><code>#------------------------------------------------------------------------------
+# ERROR REPORTING AND LOGGING
+#------------------------------------------------------------------------------
+.
+.
+.
+log_destination     = stderr
+logging_collector   = on
+log_directory       = pg_log
+client_min_messages = debug3
+log_connections     = on
+log_dsconnections   = on
+log_hostname        = on
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>For a more detailed explanation of the Error Log settings, please refere to the <a href="https://www.postgresql.org/docs/13/runtime-config-logging.html">Postgres Documentaion - Errpr Reporting and Logging</a></p>
+</div>
+<p>All log data is stored in the ‘pg_log’ folder with one file per day. Open the file in notepad to view any connection errors
+<em>all of these can be turned off once the clients are setup</em></p>
+<div style="page-break-after: always;"></div>
+
+<h3 id="client_software_installation">Client  Software Installation<a class="headerlink" href="#client_software_installation" title="Permanent link">&para;</a></h3>
+<p>Run the installation program on the USB disk provided or download the software here:</p>
+<p><a href="http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/BaseSetup/LatestVersion/UAS%203%20Base%20Setup%20-%20Extractor.exe">http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/BaseSetup/LatestVersion/UAS%203%20Base%20Setup%20-%20Extractor.exe</a></p>
+<p>Choose the second option to connect to a remote database:</p>
+<p>The client program is installed in two parts:</p>
+<ol>
+<li>Install the necessary support libraries to run Ultranalysis Suite: <em>.NET framework and Crystal Reports engine</em></li>
+<li>Install the Ultranalysis Suite Software</li>
+</ol>
+<div class="admonition check">
+<p class="admonition-title">Accept Defaults</p>
+<p><em>Follow the prompts, there are no setting required at this stage.</em></p>
+</div>
+<h4 id="license_client_pcs">License Client PC's<a class="headerlink" href="#license_client_pcs" title="Permanent link">&para;</a></h4>
+<p>Once the installation is complete, you must launch Ultranalysis Suite to license the software. The license screen will appear until it has been properly configured. The software can only run in Demo mode without a proper license and will have liimited functionality.</p>
+<p>Ultranalysis Suite is licensed per PC and uses a combination of the serial number and various hardware id's on the client PC to generate a license code.  Each end user will be emailed a serial number and instructions on how to obtain a license number.</p>
+<p>Enter the Serial Number and click on <strong>‘Generate’</strong> to create a Hardware PC Code.</p>
+<p>To obtain a license number go to this webpage:</p>
+<p><a href="https://www.sdt.be/extranet/licenses/activate">https://www.sdt.be/extranet/licenses/activate</a></p>
+<p>You will need the <em>Serial Number and Hardware PC Code</em> to continue. Once you have the license number return to the Ultranaly Suite software to enter all three numbers and your name and company name:</p>
+<p><img alt="UAS License Window" src="../images/license-window.png" title="UAS3 License Window" /></p>
+<h4 id="set_database_connection">Set Database Connection<a class="headerlink" href="#set_database_connection" title="Permanent link">&para;</a></h4>
+<p>Once you have successfully licensed the software you will be prompted to create a database connection:</p>
+<p>Click the checkbox for the 'Advanced Settings' and change the 'Host' from 'localhost' to the IP address of the postgres database server.  If you changed the password for the postgres user account on the server you will need to change the password here, otherwise leave the settings as they are and click 'Apply'.  You should receive a message that the database connection was created successfully, if you do not, go back through your settings and make sure all IP addresses are correct and that you have added the client IP ranges to the configuration files on the server.</p>
+<div style="page-break-after: always;"></div>
+
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<p>Ultranaysis Suite Standard Installation Instructions</p>
+<p><a href="ftp://ftp.sdt.eu/pub/Software/Ultranalysis%20Suite/UserManuals/LatestVersion/Ultranalysis_Suite_installation.pdf">ftp://ftp.sdt.eu/pub/Software/Ultranalysis%20Suite/UserManuals/LatestVersion/Ultranalysis_Suite_installation.pdf</a></p>
+<p>Ultranalysis Suite User Manual</p>
+<p><a href="ftp://ftp.sdt.be/pub/Software/Ultranalysis%20Suite/UserManuals/LatestVersion/UAS_manual_en.zip">ftp://ftp.sdt.be/pub/Software/Ultranalysis%20Suite/UserManuals/LatestVersion/UAS_manual_en.zip</a></p>
+<p>Automated backups</p>
+<p><a href="http://wiki.postgresql.org/wiki/Automated_Backup_on_Windows">http://wiki.postgresql.org/wiki/Automated_Backup_on_Windows</a></p>
+<p><small><em>The above is generic for any Postgres installation - but should work fine in this instance.</em></small></p>
+<p>The full documentation for Postgres is here:</p>
+<p><a href="https://www.postgresql.org/docs/13/index.html">https://www.postgresql.org/docs/13/index.html</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../backup-restore/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Backup and Restore Procedures
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../User%20Manual/Installation/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Ultranalysis® installation
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; 2019-2021 SDT Ultrasound Solutions
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
