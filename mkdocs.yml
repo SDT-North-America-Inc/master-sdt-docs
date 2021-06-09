@@ -9,7 +9,6 @@ copyright: '&copy; 2019-2021 SDT Ultrasound Solutions'
 # Repository
 repo_name: 'GitHub'
 repo_url: 'https://github.com/SDT-North-America-Inc/'
-edit_url: 'https://github.com/SDT-North-America-Inc/edit/main/docs'
 
 # Configuration
 docs_dir: 'docs'
@@ -40,13 +39,21 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - admonition
-  - codehilite
-  - footnotes
-  - toc:
+  - pymdownx.extra:
+  - pymdownx.betterem:
+  - pymdownx.superfences:
+  - markdown.extensions.footnotes:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - markdown.extensions.md_in_html:
+  - markdown.extensions.admonition:
+  - markdown.extensions.codehilite:
+  - markdown.extensions.footnotes:
+  - markdown.extensions.toc:
       permalink: true
       separator: '_'
-
 
 plugins:
   - search:
