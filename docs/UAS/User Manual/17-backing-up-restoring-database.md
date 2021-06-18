@@ -1,4 +1,4 @@
-# 17 Backing up and Restoring Database
+# 17. Backing up and Restoring Database
 
 Data contained in UAS3 can be backed up and restored, for two main purposes. First is to save a backup of your data in case of mishap. Second reason is to share data with another user, whether a colleague in your team or a consultant for support.
 
