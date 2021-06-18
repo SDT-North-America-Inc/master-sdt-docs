@@ -1,41 +1,11 @@
-# Welcome to MkDocs
+# Table of Contents
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Ultranalysis Suite
 
-## Commands
+[UAS - Backup and Restore](http://127.0.0.1:8000/UAS/backup-restore/)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[UAS - Network Installation](http://127.0.0.1:8000/UAS/network-install/)
 
-## Project layout
+[UAS3 - Database Migration Guide](http://127.0.0.1:8000/UAS/database-migration-guide/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-Definition
-:<space>
-    ```
-    a fenced block
-    ```
-
-=== "Tab 1"
-    Markdown **content**.
-
-    Multiple paragraphs.
-
-=== "Tab 2"
-    More Markdown **content**.
-
-    - list item a
-    - list item b
-
-
-| Header | Sub |
-|-------|-------|
-| 0 | 1 |
-| 0 | 2 |
-| 0 | 3 |
+[UAS - User Manual](http://127.0.0.1:8000/UAS/User%20Manual/Installation/)
