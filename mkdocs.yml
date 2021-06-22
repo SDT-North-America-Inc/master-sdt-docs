@@ -56,7 +56,7 @@ markdown_extensions:
   - pymdownx.extra
   - pymdownx.betterem
   - pymdownx.superfences
-  #- pymdownx.tabbed
+  - pymdownx.tabbed
   - markdown.extensions.footnotes
   - markdown.extensions.attr_list
   - markdown.extensions.def_list
