@@ -8,4 +8,4 @@
 
 [UAS3 - Database Migration Guide](/UAS/database-migration-guide/)
 
-[UAS - User Manual](/UAS/User%20Manual/Installation/)
+[UAS - User Manual - English](http://ftp.sdt.be/pub/Software/Ultranalysis%20Suite%203/UserManual/UAS3_User_Manual_EN.pdf)
